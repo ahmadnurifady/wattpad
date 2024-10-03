@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.font-color-orange {
+    color: #ff6122;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+nav {
+    justify-content: space-around;
+    height: 55px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.absolute-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.none-margin {
+    margin: 0;
+}
+
+#nav-left {
+    width: 60%;
+    justify-content: space-around;
+}
+
+#nav-right {
+    width: 20%;
+    justify-content: space-around;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.text-decoration {
+    text-decoration: none;
+    color:black;
+}
+
+#image-wattpad-logo {
+    width: 200px;
+    height: 100px;
+
+}
+
+#loupe-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#content {
+    margin-top: 200px;
+}
+
+#content-one {
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+#content-one-left {
+    justify-content: space-around;
+    width: 40%;
+    height: 400px;
+}
+
+#hello-wattpad {
+    font-size: 50px;
+}
+
+#button-content-one {
+    justify-content:start;
+    gap: 20px;
+}
+
+#box-computer-wattpad {
+    width: 40%;
+}
+
+.font-button {
+    width: 400px;
+    font-size: 25px;
+    color: white;
+    background-color: #ff6122;
+    border-radius: 10px;
+    border: 0;
+    height: 70px;
+}
+
+#computer-wattpad-png {
+    width: 500px;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.font-size-content {
+    font-size: 20px;
+    color: gray;
+}
+
+.font-gray {
+    color: gray;
+}
+
+#wattpad-publish {
+    width: 100%;
+    margin-top: 200px;
+}
+
+#box-icon-wattpad-publish {
+    justify-content: space-around;
+    width: 100%;
+}
+
+#box-icon {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+#content-two {
+    width: 100%;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+
+
+#wattpad-studio-poster {
+    width: 500px;
+    height: 300px;
+}
+
+#content-two-right {
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+#wattpad-studio-logo {
+    width: 200px;
+    height: 50px;
+}
+
+#film-publisher-logo {
+    width: 50px;
+    height: 50px;
+}
+
+#box-icon-content-two {
+    justify-content:space-evenly;
+}
+
+#content-three {
+    width: 100%;
+    margin-top: 200px;
+    flex-wrap: wrap;
+}
+
+#content-three-left {
+    width: 50%;
+    margin-right: 50px;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.item-to-right {
+    width: 80%;
+}
+
+#wattpad-books-logo {
+    width: 200px;
+    height: 50px;
+}
+
+#box-icon-content-three {
+  justify-content: space-between;
+  width: 70%;
+}
+
+#books-publisher-logo {
+    width: 120px;
+    height: 30px;
+}
+
+#wattpad-books-poster {
+width: 400px;
+height: 400px;
+flex-wrap: wrap;
+}
+
+#interest-about-writer {
+    margin-top: 200px;
+    width: 100%;
+}
+
+.interest-about-writer-title {
+    color: black;
+    font-size: 20px;
+}
+
+#container-how-wattpad-work {
+    margin-top: 200px;
+    width: 100%;
+}
+
+#title-how-wattpad-work {
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+}
+
+#box-how-wattpad-work {
+    margin-top: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+.number {
+    font-size: 100px;
+    margin: 0 15px 0 0;
+}
+
+.box-bottom {
+  border-radius: 20px;
+  background-color: #ff6122;
+}
+
+.item-box-bottom {
+    color: white;
+    font-size: 30px;
+}
+
+.width-25 {
+    width: 25%;
+}
+
+#container-wattpad-content {
+    margin-top: 200px;
+    width: 100%;
+}
+
+#wattpad-content-title {
+    width: 26%;
+    justify-content: center;
+}
+
+
+.wattpad-content {
+    width: 30%;
+    align-items: normal;
+}
+
+.more-knows{
+    text-decoration: none;
+    color: black;
+}
+
+#container-take-wattpad {
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.border {
+    border-radius: 5px;
+    background-color: #ff6122;
+    height: 50px;
+    width: 200px;
+}
+
+.image-more-knows {
+    width: 70%;
+}
+
+.font-size-link {
+    font-size: 15px;
+    width: 60%;
+}
+
+.font-border {
+    color: white;
+    text-decoration: none;
+}
+
+#button-take-wattpad {
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#footer {
+    width: 100%;
+    margin-top: 200px;
+    justify-content: space-around;
+}
+
+.list-footer {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.ul-none {
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+#ul-left {
+    width: 60%;
+    justify-content: space-around;
+}
+
+#ul-right {
+    width: 40%;
+    justify-content: space-around;
+}
+
+
+
+#carousel-container{
+    scroll-snap-type: y mandatory;
+    overflow-x: scroll;
+    display: flex;  
+    gap: 1rem;
+    width: 100%;
+}
+
+.carousel-items{
+    scroll-snap-align: unset;
+    height: 720px;
+    aspect-ratio: 16/9;
+    background-color: rgb(202, 162, 102);
+}
