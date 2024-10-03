@@ -1,1 +1,1 @@
-### ini adalah project latihan membuat web dengan html dan css mengikuti design dar https://www.wattpad.com/
+### ini adalah project latihan membuat web dengan html dan css mengikuti design dari https://www.wattpad.com/
